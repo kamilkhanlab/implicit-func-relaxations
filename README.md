@@ -15,11 +15,11 @@ know a set $X$ containing the range of $\mathbf{x}$. This
 repository illustrates our new approach for constructing
 convex/concave relaxations for the unknown implicit function
 $\mathbf{x}$ in terms of known information, and contains our Julia code for all numerical examples in the
-corresponding article.
+corresponding manuscript.
 
 This implementation was developed by Huiyi Cao in Julia. This repository is
-tied to the accompanying paper, and will not be updated except for bug
-fixes. If you make use of this code, please cite the accompanying paper.
+tied to the accompanying manuscript, and will not be updated except for bug
+fixes. If you make use of this code, please cite the accompanying manuscript.
 
 This work was supported by the McMaster Advanced Control Consortium
 (MACC), and by the Natural Sciences and Engineering Research Council of Canada (NSERC) under Grant RGPIN-2017-05944.
@@ -58,4 +58,4 @@ particularly easily.
 This formulation does not actually require existence or uniqueness of
 $\mathbf{x}$ on the presumed domain. Inverse functions and
 constraint-satisfaction problems may be relaxed analogously. For more details, please refer to
-the accompanying article.
+the accompanying manuscript.
