@@ -39,15 +39,15 @@ This work was supported by the McMaster Advanced Control Consortium
 
 With the setup described above, we describe convex/concave relaxations
 of the implicit function $\mathbf{x}$ as follows, for each component
-$i$:
+$i$ and each $\mathbf{p}\in P$:
 
 $$
 \begin{align*}
-x_i^{\mathrm{cv}}(\mathbf{p})&=\inf_{\mathbf{z}\in X} z_i
+x_i^{\mathrm{cv}}(\mathbf{p})&:=\inf_{\mathbf{z}\in X} z_i
 \quad\text{subject
 to}\quad\mathbf{f}^{\text{cv}}(\mathbf{z},\mathbf{p})\leq\mathbf{0}\leq\mathbf{f}^{\text{cc}}(\mathbf{z},\mathbf{p}),
 \\
-x_i^{\mathrm{cc}}(\mathbf{p})&=\sup_{\mathbf{z}\in X} z_i
+x_i^{\mathrm{cc}}(\mathbf{p})&:=\sup_{\mathbf{z}\in X} z_i
 \quad\text{subject
 to}\quad\mathbf{f}^{\text{cv}}(\mathbf{z},\mathbf{p})\leq\mathbf{0}\leq\mathbf{f}^{\text{cc}}(\mathbf{z},\mathbf{p}). 
 \end{align*}
