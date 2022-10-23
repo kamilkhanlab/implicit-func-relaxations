@@ -26,14 +26,14 @@ This work was supported by the McMaster Advanced Control Consortium
 
 ## Dependencies
 
-- McCormick.jl v0.13.1
-- DataFrames.jl v1.3.4
-- IntervalArithmetic.jl v0.20.6
-- JuMP.jl v0.21.5
-- Ipopt.jl v0.6.5
-- NLsolve.jl v4.5.1
-- Plots.jl v1.31.3
-- LaTeXStrings v1.3.0
+- [McCormick.jl](https://github.com/PSORLab/McCormick.jl) v0.13.1
+- [DataFrames.jl](https://github.com/JuliaData/DataFrames.jl) v1.3.4
+- [IntervalArithmetic.jl](https://github.com/JuliaIntervals/IntervalArithmetic.jl) v0.20.6
+- [JuMP.jl](https://github.com/jump-dev/JuMP.jl) v0.21.5
+- [Ipopt.jl](https://github.com/jump-dev/Ipopt.jl) v0.6.5
+- [NLsolve.jl](https://github.com/JuliaNLSolvers/NLsolve.jl) v4.5.1
+- [Plots.jl](https://github.com/JuliaPlots/Plots.jl) v1.31.3
+- [LaTeXStrings](https://github.com/stevengj/LaTeXStrings.jl) v1.3.0
 
 ## Method outline
 
