@@ -1,21 +1,26 @@
 # implicit-func-relaxations
 
-Suppose an *implicit function* $\mathbf{x}$ is defined in terms of a
+Suppose that:
+
+- we have an *implicit function* $\mathbf{x}$ defined in terms of a
 known *residual function* $\mathbf{f}$ as satisfying:
 
 $$
 \mathbf{f}(\mathbf{x}(\mathbf{p}),\mathbf{p}) = \mathbf{0},
-\qquad\forall\mathbf{p}\in P.
+\qquad\forall\mathbf{p}\in P,
 $$
 
-Suppose we can also generate convex/concave relaxations $\mathbf{f}^{\text{cv}}/\mathbf{f}^{\text{cc}}$ for $\mathbf{f}$,
+- we can also generate convex/concave relaxations $\mathbf{f}^{\text{cv}}/\mathbf{f}^{\text{cc}}$ for $\mathbf{f}$,
 perhaps in the sense of
-[McCormick.jl](https://github.com/PSORLab/McCormick.jl), and that we
-know a set $X$ containing the range of $\mathbf{x}$. This
+[McCormick.jl](https://github.com/PSORLab/McCormick.jl), and 
+- we
+know a set $X$ containing the range of $\mathbf{x}$. 
+
+This
 repository illustrates our new approach for constructing
 convex/concave relaxations for the unknown implicit function
 $\mathbf{x}$ in terms of known information, and contains our Julia code for all numerical examples in the
-corresponding manuscript.
+corresponding manuscript. This manuscript is currently under review for publication, and the current draft is available by request.
 
 This implementation was developed by Huiyi Cao in Julia. This repository is
 tied to the accompanying manuscript, and will not be updated except for bug
