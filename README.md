@@ -17,14 +17,15 @@ perhaps in the sense of
 know a set $X$ containing the range of $\mathbf{x}$. 
 
 This
-repository illustrates our new approach for constructing
+repository illustrates [our new approach](https://doi.org/10.1007/s10898-023-01281-0) for constructing
 convex/concave relaxations for the unknown implicit function
-$\mathbf{x}$ in terms of known information, and contains our Julia code for all numerical examples in the
-corresponding manuscript. This manuscript is currently under review for publication, and the current draft is available by request.
+$\mathbf{x}$ in terms of known information, and contains our Julia code for all numerical examples in our accompanying article.
 
 This implementation was developed by Huiyi Cao in Julia. This repository is
-tied to the accompanying manuscript, and will not be updated except for bug
-fixes. If you make use of this code, please cite the accompanying manuscript.
+tied to the accompanying article, and will not be updated except for bug
+fixes. If you make use of this code, please cite our article:
+
+> Huiyi Cao and Kamil A. Khan, General convex relaxations of implicit functions and inverse functions, *Journal of Global Optimization*, in press, 2023. doi:10.1007/s10898-023-01281-0
 
 This work was supported by the McMaster Advanced Control Consortium
 (MACC), and by the Natural Sciences and Engineering Research Council of Canada (NSERC) under Grant RGPIN-2017-05944.
