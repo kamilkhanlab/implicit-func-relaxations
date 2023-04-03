@@ -1,6 +1,6 @@
 # implicit-func-relaxations
 
-Suppose that:
+Convex relaxations are used in typical methods for global optimization and reachable set generation. Suppose that:
 
 - we have an *implicit function* $\mathbf{x}$ defined in terms of a
 known *residual function* $\mathbf{f}$ as satisfying:
@@ -11,7 +11,7 @@ $$
 $$
 
 - we can also generate convex/concave relaxations $\mathbf{f}^{\text{cv}}/\mathbf{f}^{\text{cc}}$ for $\mathbf{f}$,
-perhaps in the sense of
+perhaps using
 [McCormick.jl](https://github.com/PSORLab/McCormick.jl), and 
 - we
 know a set $X$ containing the range of $\mathbf{x}$. 
@@ -19,7 +19,7 @@ know a set $X$ containing the range of $\mathbf{x}$.
 This
 repository illustrates [our new approach](https://doi.org/10.1007/s10898-023-01281-0) for constructing
 convex/concave relaxations for the unknown implicit function
-$\mathbf{x}$ in terms of known information, and contains our Julia code for all numerical examples in our accompanying article.
+$\mathbf{x}$ in terms of known information, and contains our Julia code for all numerical examples in our accompanying article. 
 
 This implementation was developed by Huiyi Cao in Julia. This repository is
 tied to the accompanying article, and will not be updated except for bug
