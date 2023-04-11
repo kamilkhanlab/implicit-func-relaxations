@@ -10,11 +10,11 @@ $$
 \qquad\forall\mathbf{p}\in P,
 $$
 
-- we can also generate convex/concave relaxations $\mathbf{f}^{\text{cv}}/\mathbf{f}^{\text{cc}}$ for $\mathbf{f}$,
+- we can also generate convex/concave relaxations $\mathbf{f}^{\text{cv}}/\mathbf{f}^{\text{cc}}$ for $\mathbf{f}$ on $P$,
 perhaps using
 [McCormick.jl](https://github.com/PSORLab/McCormick.jl), and 
 - we
-know a set $X$ containing the range of $\mathbf{x}$. 
+know a box $X\subset\mathbb{R}^{n_x}$ containing the range of $\mathbf{x}$. 
 
 This
 repository illustrates [our new approach](https://doi.org/10.1007/s10898-023-01281-0) for constructing
@@ -25,7 +25,7 @@ This implementation was developed by Huiyi Cao in Julia. This repository is
 tied to the accompanying article, and will not be updated except for bug
 fixes. If you make use of this code, please cite our article:
 
-> Huiyi Cao and Kamil A. Khan, General convex relaxations of implicit functions and inverse functions, *Journal of Global Optimization*, in press, 2023. doi:10.1007/s10898-023-01281-0
+> Huiyi Cao and Kamil A. Khan, General convex relaxations of implicit functions and inverse functions, *Journal of Global Optimization*, in press, 2023. doi:[10.1007/s10898-023-01281-0](https://doi.org/10.1007/s10898-023-01281-0)
 
 This work was supported by the McMaster Advanced Control Consortium
 (MACC), and by the Natural Sciences and Engineering Research Council of Canada (NSERC) under Grant RGPIN-2017-05944.
@@ -59,9 +59,11 @@ to}\quad\mathbf{f}^{\text{cv}}(\mathbf{z},\mathbf{p})\leq\mathbf{0}\leq\mathbf{f
 \end{align*}
 $$
 
-When monotonicity can be exploited, these relaxations are evaluated
-particularly easily.
-This formulation does not actually require existence or uniqueness of
+When linearity or monotonicity can be exploited, these relaxations are evaluated
+particularly easily. This formulation is simple and versatile, and permits us (for example) to construct αBB relaxations of implicit functions. 
+We do not actually require existence or uniqueness of
 $\mathbf{x}$ on the presumed domain. Inverse functions and
 constraint-satisfaction problems may be relaxed analogously. For more details, please refer to
 the accompanying manuscript.
+
+![implicit_X2_tighter](https://user-images.githubusercontent.com/64545976/231295964-2e77a049-f9ad-48da-9c3a-6e48879f327b.jpg)
