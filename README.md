@@ -60,8 +60,7 @@ to}\quad\mathbf{f}^{\text{cv}}(\mathbf{z},\mathbf{p})\leq\mathbf{0}\leq\mathbf{f
 $$
 
 When linearity or monotonicity can be exploited, these relaxations are evaluated
-particularly easily. This formulation is simple and versatile, and permits us (for example) to construct αBB relaxations of implicit functions. 
-We do not actually require existence or uniqueness of
+particularly easily. This formulation is simple and versatile, and does not actually require existence or uniqueness of
 $\mathbf{x}$ on the presumed domain. Inverse functions and
 constraint-satisfaction problems may be relaxed analogously. For more details, please refer to
 the accompanying manuscript.
